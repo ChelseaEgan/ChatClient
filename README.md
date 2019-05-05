@@ -1,6 +1,8 @@
 # PROJECT 1
 Name: Chelsea Egan
+
 Class: CS 372-400
+
 Last Modified: May 4, 2019
 
 This is a chat system created for project 1 of the Intro to Networks class at Oregon State University. A server is started via a terminal and opens a socket for "clients" to connect to. The client is also started via a terminal (can be on the same or different host as the server) and connects to the server by providing its hostname and port number. They can then alternate sending messages until one sends the termination command. The server will remain open for future client connections.
@@ -15,7 +17,7 @@ For chatclient.c, use the makefile to compile
 ```
 make chatclient
 ```
-* NOTE: all files must be in the same directory and you must be in that directory when using these commands.
+\* NOTE: all files must be in the same directory and you must be in that directory when using these commands.
 
 
 ## Usage
@@ -41,22 +43,22 @@ Either server or client can enter "\quit" (without the quotes) when it is their 
 
 ## Sources
 PYTHON
-General documentation used for chatserve
-	https://docs.python.org/release/2.6.5/library/internet.html
-	https://docs.python.org/3/library/socket.html
-Setting up a TCP socket connection
-	Computer Networking by Kurose & Ross, section 2.7.2
-Input validation
-	https://www.101computing.net/number-only/
-Setting up the main method
-	https://www.guru99.com/learn-python-main-function-with-examples-understand-main.html
-Catching Ctrl+C
-	https://stackoverflow.com/questions/1187970/how-to-exit-from-python-without-traceback
+- General documentation used for chatserve
+	- https://docs.python.org/release/2.6.5/library/internet.html
+	- https://docs.python.org/3/library/socket.html
+- Setting up a TCP socket connection
+	- Computer Networking by Kurose & Ross, section 2.7.2
+- Input validation
+	- https://www.101computing.net/number-only/
+- Setting up the main method
+	- https://www.guru99.com/learn-python-main-function-with-examples-understand-main.html
+- Catching Ctrl+C
+	- https://stackoverflow.com/questions/1187970/how-to-exit-from-python-without-traceback
 
 C
-Checking if user input is too long
-	https://stackoverflow.com/a/40891999
-Removing newline characters from input
-	https://stackoverflow.com/a/28462221
-Setting up a TCP connection
-	https://beej.us/guide/bgnet/html/multi/clientserver.html#simpleclient
+- Checking if user input is too long
+	- https://stackoverflow.com/a/40891999
+- Removing newline characters from input
+	- https://stackoverflow.com/a/28462221
+- Setting up a TCP connection
+	- https://beej.us/guide/bgnet/html/multi/clientserver.html#simpleclient
