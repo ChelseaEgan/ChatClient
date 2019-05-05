@@ -1,4 +1,4 @@
-#PROJECT 1
+# PROJECT 1
 Name: Chelsea Egan
 Class: CS 372-400
 Last Modified: May 4, 2019
@@ -6,7 +6,7 @@ Last Modified: May 4, 2019
 This is a chat system created for project 1 of the Intro to Networks class at Oregon State University. A server is started via a terminal and opens a socket for "clients" to connect to. The client is also started via a terminal (can be on the same or different host as the server) and connects to the server by providing its hostname and port number. They can then alternate sending messages until one sends the termination command. The server will remain open for future client connections.
 
 
-##Installation
+## Installation
 For chatserve.py, use the makefile to turn it into an executable file
 ```
 make chatserve
@@ -18,7 +18,7 @@ make chatclient
 * NOTE: all files must be in the same directory and you must be in that directory when using these commands.
 
 
-##Usage
+## Usage
 First, start the server by providing a port number. For example:
 ```
 ./chatserve.py 30200
@@ -29,17 +29,17 @@ Second, start the client by providing a hostname and port number. For example:
 ```
 
 
-##Ending
+## Ending
 Either server or client can enter "\quit" (without the quotes) when it is their turn to send a message. This will gracefully close their connection, but the server will remain running. At which point, entering Ctrl+C on the server will terminate its program.
 
 
-##Notes
+## Notes
 - I have tested using flip1 and flip3, alternating for both between server and client. It shouldn't matter which you use.
 - I have been using port 30200 with success, but my program just asks for one between 1024 and 65535
 - Servers and clients can send a maximum of 500 characters, but this includes their username and "> ", which are automatically added.
 
 
-##Sources
+## Sources
 PYTHON
 General documentation used for chatserve
 	https://docs.python.org/release/2.6.5/library/internet.html
