@@ -1,11 +1,9 @@
 # PROJECT 1
 Name: Chelsea Egan
 
-Class: CS 372-400
-
 Last Modified: May 4, 2019
 
-This is a chat system created for project 1 of the Intro to Networks class at Oregon State University. A server is started via a terminal and opens a socket for "clients" to connect to. The client is also started via a terminal (can be on the same or different host as the server) and connects to the server by providing its hostname and port number. They can then alternate sending messages until one sends the termination command. The server will remain open for future client connections.
+A server is started via a terminal and opens a socket for "clients" to connect to. The client is also started via a terminal (can be on the same or different host as the server) and connects to the server by providing its hostname and port number. They can then alternate sending messages until one sends the termination command. The server will remain open for future client connections.
 
 
 ## Installation
